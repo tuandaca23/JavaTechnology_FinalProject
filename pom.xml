@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pro:project xmlns:pro="http://maven.apache.org/POM/4.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <pro:modelVersion>4.0.0</pro:modelVersion>
+
+    <pro:groupId>org.example</pro:groupId>
+    <pro:artifactId>final_project</pro:artifactId>
+    <pro:version>1.0-SNAPSHOT</pro:version>
+
+    <pro:modules>
+        <pro:module>Library</pro:module>
+        <pro:module>Admin</pro:module>
+        <pro:module>Customer</pro:module>
+    </pro:modules>
+
+    <pro:properties>
+        <pro:maven.compiler.source>17</pro:maven.compiler.source>
+        <pro:maven.compiler.target>17</pro:maven.compiler.target>
+        <pro:project.build.sourceEncoding>UTF-8</pro:project.build.sourceEncoding>
+    </pro:properties>
+
+</pro:project>
